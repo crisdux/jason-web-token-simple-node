@@ -1,4 +1,5 @@
 const app = require('./app');
+require('./database');
 let colors = require('colors');
 async function init() {
     await app.listen(3000);
